@@ -15,7 +15,7 @@ const webpackConfig = () => ({
     extensions: ['.ts', '.tsx', '.js'],
     plugins: [new TsconfigPathsPlugin({configFile: './tsconfig.json'})],
     alias: {
-      '@globals': path.resolve(__dirname, 'src/assets/stylesheets/_globals.scss'),
+      '@globals': path.resolve(__dirname, 'src/asdecsets/stylesheets/_globals.scss'),
     },
   },
   output: {
