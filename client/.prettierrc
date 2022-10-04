@@ -7,6 +7,8 @@
   "semi": false,
   "arrowParens": "avoid",
   "jsxSingleQuote": true,
-  "printWidth":  120,
-  "tabWidth":  2
+  "printWidth": 120,
+  "tabWidth": 2,
+  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderSeparation": false
 }

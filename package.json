@@ -62,6 +62,7 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.12",
     "@types/jest": "^27.4.0",
